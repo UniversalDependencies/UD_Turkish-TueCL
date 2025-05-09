@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>148</sentences><tokens>883</tokens><words>904</words><fused>20</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>148</sentences><tokens>883</tokens><words>904</words><fused>20</fused></test>
+  </size>
+  <lemmas unique="250" /><!-- ., Deniz, ?, kitap, ev, mi, oku, ,, i, ol, uyu, değil, o, ver, yap -->
+  <forms unique="385" /><!-- ., Deniz, ?, ,, evde, kitap, değil, kitabı, mi, o, bir, var, verdi, ama, okula -->
+  <fusions unique="18" /><!-- değildi, nedense, Deniz'inkinin, değilmiş, evdeki, evdekininki, evdeydi, filmdi, hemşireydi, içindi, kitaplıktakiler, mutfağınkini, okumasıydı, saattir, seninkinden -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="14">
+    <tag name="ADJ">46</tag><!-- var, yok, mavi, büyük, güzel, küçük, boş, genel, iyi, aynı -->
+    <tag name="ADP">3</tag><!-- için, kadar -->
+    <tag name="ADV">42</tag><!-- daha, de, geç, hiç, çok, erken, neden, sadece, apar, bile -->
+    <tag name="AUX">76</tag><!-- mi, i, ol, değil, dur -->
+    <tag name="CCONJ">14</tag><!-- ama, ve, ne, yoksa -->
+    <tag name="DET">14</tag><!-- bir, bu, ne, o, bütün -->
+    <tag name="INTJ">1</tag><!-- peki -->
+    <tag name="NOUN">223</tag><!-- kitap, ev, okul, çocuk, anne, araba, sabah, arkadaş, kardeş, ki -->
+    <tag name="NUM">6</tag><!-- üç, beş, bir, iki -->
+    <tag name="PRON">40</tag><!-- o, sen, ben, bu, kendi, ki, kim, ne, birbiri, biz -->
+    <tag name="PROPN">92</tag><!-- Deniz, Ayhan, Peter, Ayşe, Mary, Fransa, Paris, Brown, Hakan, Jane -->
+    <tag name="PUNCT">168</tag><!-- ., ?, ,, !, - -->
+    <tag name="SCONJ">4</tag><!-- ki, eğer, çünkü -->
+    <tag name="VERB">175</tag><!-- oku, uyu, ver, yap, git, gel, al, iste, anla, bak -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="55">
+    <feat name="Aspect" value="Hab" upos="VERB">11</feat><!-- okur, verir, bakamaz, erişilebilir, gelir, hallederiz, kalır, tozlaşır, uyuyamayabilir -->
+    <feat name="Aspect" value="Imp" upos="AUX,VERB">10</feat><!-- uyursa, se, duyurulurken, ettirmeliyiz, konuşurken, olsaydı, seçilebilir -->
+    <feat name="Aspect" value="Perf" upos="AUX,VERB">100</feat><!-- verdi, idi, di, olacak, uyumuş, aldı, gitti, miydi, uyudu, büyüdü -->
+    <feat name="Aspect" value="Prog" upos="VERB">38</feat><!-- istiyor, okuyor, seviyor, anlamıyor, anlıyor, bakıyorsun, bilmiyorlar, yapıyor, zannediyorsun, zannediyorum -->
+    <feat name="Aspect" value="Prosp" upos="VERB">2</feat><!-- gelecekti, izleyecektik -->
+    <feat name="Case" value="Abl" upos="NOUN,PRON,PROPN">9</feat><!-- Peter'den, arkadaşlarından, benden, kardeşinden, odadan, ondan, restorandan, senin, yemekten -->
+    <feat name="Case" value="Acc" upos="ADJ,AUX,NOUN,PRON,VERB">62</feat><!-- kitabı, Okuduklarını, annesini, okumayı, arabayı, bırakmayı, gelebileceğini, içmeyi, maviyi, olduğunu -->
+    <feat name="Case" value="Dat" upos="NOUN,PRON,PROPN,VERB">37</feat><!-- okula, Ayhan'a, eve, bana, arkadaşına, kocasına, neye, çocuklara, Gençlere, Sana -->
+    <feat name="Case" value="Gen" upos="NOUN,PRON,PROPN">26</feat><!-- Deniz'in, Annesinin, Benim, Bunun, Fransanın, kimin, kinin, Evin, Hakan'ın, Peter'in -->
+    <feat name="Case" value="Ins" upos="NOUN,PRON">5</feat><!-- arkadaşınla, bizimle, gözle, iple, kardeşiyle -->
+    <feat name="Case" value="Loc" upos="NOUN,PROPN,VERB">41</feat><!-- evde, kitaplıkta, Paris'te, evdeki, odada, okulda, zamanında, Markette, Masada, aylarında -->
+    <feat name="Case" value="Nom" upos="ADJ,ADV,AUX,NOUN,PRON,PROPN,VERB">218</feat><!-- Deniz, kitap, O, Sen, sabah, Ayşe, çocuk, Mary, Peter, doktor -->
+    <feat name="Definite" value="Def" upos="DET">3</feat><!-- o, Bu -->
+    <feat name="Definite" value="Ind" upos="DET">7</feat><!-- bir -->
+    <feat name="Evident" value="Fh" upos="AUX,VERB">129</feat><!-- verdi, idi, istiyor, di, olacak, aldı, miydi, okuyor, seviyor, uyudu -->
+    <feat name="Evident" value="Nfh" upos="AUX,VERB">24</feat><!-- uyumuş, gitmiş, görmemiş, se, açıklanmış, bilmiş, etmişmiş, gelmiş, görmüş, miymiş -->
+    <feat name="Mood" value="Cnd" upos="AUX,VERB">6</feat><!-- uyursa, se, olsaydı -->
+    <feat name="Mood" value="Gen" upos="AUX,VERB">11</feat><!-- okur, verir, dir, gelir, hallederiz, kalır, midir, tir, tozlaşır -->
+    <feat name="Mood" value="GenPot" upos="VERB">2</feat><!-- bakamaz, erişilebilir -->
+    <feat name="Mood" value="Imp" upos="AUX,VERB">7</feat><!-- Boşver, aç, bahsetme, bitir, kavurun, ol, ver -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">135</feat><!-- verdi, idi, istiyor, di, olacak, uyumuş, aldı, gitti, miydi, okuyor -->
+    <feat name="Mood" value="Nec" upos="AUX,VERB">3</feat><!-- olmalıydı, ettirmeliyiz -->
+    <feat name="Mood" value="Pot" upos="VERB">6</feat><!-- gelebileceğini, seçilebilir, uyduramadım, uyuyamayabilir, uyuyamıyor -->
+    <feat name="Number" value="Plur" upos="AUX,NOUN,PRON,VERB">34</feat><!-- Okuduklarını, Onlar, bilmiyorlar, çocuklara, Gençlere, Sonuçlar, Soğanları, arkadaşlarından, aylarında, ağaçları -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,NOUN,PRON,PROPN,VERB">527</feat><!-- Deniz, evde, kitap, kitabı, mi, O, verdi, okula, Ayhan'a, Deniz'in -->
+    <feat name="Number[psor]" value="Plur" upos="NOUN,PRON,VERB">6</feat><!-- Okuduğunuzu, birbirlerini, gelişimleri, uyandırmamız, vardığımızda, çalıştığımız -->
+    <feat name="Number[psor]" value="Sing" upos="ADJ,AUX,NOUN,PRON,VERB">75</feat><!-- Okuduklarını, annesini, mavisi, Annesinin, arkadaşına, başkenti, gelebileceğini, kardeşi, kocasına, okuması -->
+    <feat name="NumType" value="Card" upos="NUM">6</feat><!-- üç, beş, bir, iki -->
+    <feat name="Person" value="1" upos="PRON,VERB">15</feat><!-- bana, Benim, zannediyorum, benden, bizimle, ettirmeliyiz, hallederiz, izleyecektik, söylüyorum, uyduramadım -->
+    <feat name="Person" value="2" upos="AUX,PRON,VERB">24</feat><!-- Sen, bakıyorsun, misin, musun, zannediyorsun, Boşver, Sana, aç, bahsetme, bitir -->
+    <feat name="Person" value="3" upos="AUX,PRON,VERB">157</feat><!-- mi, O, verdi, idi, istiyor, di, mı, olacak, aldı, gitti -->
+    <feat name="Person[psor]" value="1" upos="NOUN,VERB">7</feat><!-- Eşim, Hırkam, arabam, babam, uyandırmamız, vardığımızda, çalıştığımız -->
+    <feat name="Person[psor]" value="2" upos="NOUN,PRON,VERB">6</feat><!-- gelebileceğini, Okuduğunuzu, arkadaşınla, kinden, Çocuğun -->
+    <feat name="Person[psor]" value="3" upos="ADJ,AUX,NOUN,PRON,VERB">69</feat><!-- Okuduklarını, annesini, mavisi, Annesinin, arkadaşına, başkenti, kardeşi, kocasına, okuması, olduğunu -->
+    <feat name="Polarity" value="Neg" upos="ADJ,AUX,NOUN,VERB">42</feat><!-- değil, yok, anlamıyor, bilmiyorlar, görmemiş, olmadı, yapmadı, bahsetme, bakamaz, gitmeden -->
+    <feat name="Polarity" value="Pos" upos="NOUN">2</feat><!-- evde, öğrenci -->
+    <feat name="PronType" value="Art" upos="DET">7</feat><!-- bir -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">10</feat><!-- o, Bunun, bu, bunu, kini, ondan -->
+    <feat name="PronType" value="Int" upos="AUX,DET,PRON">30</feat><!-- mi, mı, miydi, kimin, musun, ne, neye, midir, misin, miymiş -->
+    <feat name="PronType" value="Prs" upos="PRON">22</feat><!-- O, Sen, bana, Benim, Onlar, Sana, benden, bizimle, senin -->
+    <feat name="PronType" value="Rcp" upos="PRON">1</feat><!-- birbirlerini -->
+    <feat name="Reflex" value="Yes" upos="PRON">3</feat><!-- kendi, kendine, kendisine -->
+    <feat name="Tense" value="Fut" upos="AUX,VERB">13</feat><!-- olacak, gelebileceğini, kalacak, gerekecek, okutturulacak, okuyacaklarını, uyuyacağını, yapılacak -->
+    <feat name="Tense" value="Fut,Past" upos="VERB">2</feat><!-- gelecekti, izleyecektik -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">97</feat><!-- verdi, idi, Okuduklarını, di, uyumuş, aldı, gitti, miydi, uyudu, büyüdü -->
+    <feat name="Tense" value="Pqp" upos="VERB">4</feat><!-- etmişmiş, temizlememişti, uyumuştu, çalmıştı -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">60</feat><!-- istiyor, okuyor, seviyor, uyursa, anlamıyor, anlıyor, bakıyorsun, bilmiyorlar, okur, se -->
+    <feat name="VerbForm" value="Conv" upos="AUX,VERB">13</feat><!-- alıp, olarak, unutup, açıp, bakıp, duyurulurken, gitmeden, konuşurken, okuyarak, pembeleşinceye -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">17</feat><!-- anlatıyor, açıklanmış, bahsetme, durdu, gelecekti, gitti, götürdü, idi, okumamış, seviyor -->
+    <feat name="VerbForm" value="Part" upos="AUX,VERB">22</feat><!-- Okuduklarını, olduğunu, yazdığını, Okuduğunuzu, bilmiş, erişilebilir, ettiği, kalacak, okuyacaklarını, okuyan -->
+    <feat name="VerbForm" value="Vnoun" upos="AUX,VERB">24</feat><!-- okumayı, bırakmayı, gitmek, içmeyi, okumak, okuması, yapmayı, okumaması, okumasını, olmaması -->
+    <feat name="Voice" value="Cau" upos="VERB">6</feat><!-- bitir, ettirmeliyiz, kaygılandırıyordu, kolaylaştırıyor, uyandırmamız, uyduramadım -->
+    <feat name="Voice" value="CauCau" upos="VERB">2</feat><!-- yıkattırdı -->
+    <feat name="Voice" value="CauPass" upos="VERB">2</feat><!-- okutturulacak, uyutuldu -->
+    <feat name="Voice" value="Pass" upos="VERB">8</feat><!-- açıklanmış, duyurulurken, erişilebilir, iletildi, okunuyor, seçilebilir, sunuldu, yapılacak -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="37">
+    <dep name="acl">6</dep>
+    <dep name="advcl">19</dep>
+    <dep name="advmod">34</dep>
+    <dep name="advmod:emph">5</dep>
+    <dep name="amod">15</dep>
+    <dep name="aux">29</dep>
+    <dep name="aux:q">26</dep>
+    <dep name="case">4</dep>
+    <dep name="cc">14</dep>
+    <dep name="ccomp">19</dep>
+    <dep name="compound">1</dep>
+    <dep name="compound:lvc">5</dep>
+    <dep name="compound:redup">1</dep>
+    <dep name="conj">23</dep>
+    <dep name="cop">18</dep>
+    <dep name="csubj">4</dep>
+    <dep name="det">14</dep>
+    <dep name="discourse">1</dep>
+    <dep name="fixed">2</dep>
+    <dep name="flat">2</dep>
+    <dep name="mark">4</dep>
+    <dep name="nmod">17</dep>
+    <dep name="nmod:poss">17</dep>
+    <dep name="nsubj">126</dep>
+    <dep name="nsubj:outer">3</dep>
+    <dep name="nsubj:pass">4</dep>
+    <dep name="nummod">6</dep>
+    <dep name="obj">61</dep>
+    <dep name="obl">71</dep>
+    <dep name="obl:agent">1</dep>
+    <dep name="obl:tmod">14</dep>
+    <dep name="orphan">4</dep>
+    <dep name="parataxis">5</dep>
+    <dep name="punct">168</dep>
+    <dep name="root">148</dep>
+    <dep name="vocative">1</dep>
+    <dep name="xcomp">12</dep>
+  </deps>
+</treebank>
