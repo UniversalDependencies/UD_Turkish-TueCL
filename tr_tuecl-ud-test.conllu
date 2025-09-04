@@ -343,6 +343,7 @@
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = udtw23-1
+# parallel_id = tuecl/udtw23-1
 # text = Eşim yazlıktaki çocuk odasının penceresini apar topar temizlemiş, mutfağınkini temizlememişti.
 # text[en] = My spouse cleaned the windows of the children's room at the summer house hastily, but didn't clean the kitchen's.
 # type = both uses of -ki, compound (vs nmod:poss), multi-word expressions
@@ -362,6 +363,7 @@
 13	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = udtw23-2
+# parallel_id = tuecl/udtw23-2
 # text = Sana bunu hep söylüyorum, sabahları arkadaşınla telefonda konuşurken benden bahsetme.
 # text[en] = I always tell you this, don't talk about me on the phone with your friend in the morning.
 # type = oblique vs object, oblique (?) as temporal modifier
@@ -379,6 +381,7 @@
 12	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = udtw23-3
+# parallel_id = tuecl/udtw23-3
 # text = Yatılı kalacak misafir kapıyı çalmıştı ama ev sahibi hala temizlik yapıyordu, restorandan sipariş ettiği yemek ise daha gelecekti.
 # text[en] = The overnight guest knocked on the door, but the host was still cleaning, and the food she had ordered from the restaurant was yet to come.
 # type = participle, multiple TAM marker/copula, oblique
@@ -404,6 +407,7 @@
 20	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = udtw23-4
+# parallel_id = tuecl/udtw23-4
 # text = Ayşe bir doktor.
 # text[en] = Ayşe is a doctor.
 # type = null morpheme copula
@@ -413,6 +417,7 @@
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = udtw23-5
+# parallel_id = tuecl/udtw23-5
 # text = Çözmeye çalıştığımız sorun kitaplıkta beş kitaplık yer bile olmaması.
 # text[en] = The (problem) we're trying to solve is that the library doesn't even have room for five books.
 # type = null morpheme copula with multiple subjects, productive/lexicalized derivation
@@ -428,6 +433,7 @@
 10	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = udtw23-6
+# parallel_id = tuecl/udtw23-6
 # text = Anneannesi hemşireydi.
 # text[en] = His/her grandmother was a nurse.
 # type = copula
@@ -438,6 +444,7 @@
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = udtw23-7
+# parallel_id = tuecl/udtw23-7
 # text = Peki kitaplıktakiler nerede idi?
 # text[en] = So where were the [ones] on the bookshelf?
 # type = copula "idi", derivation, -ki
@@ -450,6 +457,7 @@
 6	?	?	PUNCT	_	_	4	punct	_	_
 
 # sent_id = udtw23-8
+# parallel_id = tuecl/udtw23-8
 # text = Sude üç saattir ofiste yokmuş, Ayşe de evde değilmiş.
 # text[en] = Sude was not at the office for three hours, and Ayşe was not at home.
 # type = temporal modifier / oblique, existential, "değil" negation
@@ -472,6 +480,7 @@
 14	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = udtw23-9
+# parallel_id = tuecl/udtw23-9
 # text = Markette meyve var ama güzel değil.
 # text[en] = There is fruit in the market, but it's not pretty.
 # type = existential, "değil" negation
@@ -484,6 +493,7 @@
 7	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = udtw23-10
+# parallel_id = tuecl/udtw23-10
 # text = Deniz doktor olacak, bilmiş ol!
 # text[en] = Deniz will be a doctor, (so that) you know!
 # type = copula, light verb auxiliary
@@ -496,6 +506,7 @@
 7	!	!	PUNCT	_	_	5	punct	_	_
 
 # sent_id = udtw23-11
+# parallel_id = tuecl/udtw23-11
 # text = Deniz uyumuş idi.
 # text[en] = Deniz was asleep.
 # type = copula
@@ -505,6 +516,7 @@
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = udtw23-12
+# parallel_id = tuecl/udtw23-12
 # text = Toplantı duyurulurken çok şaşırmış olacak ki bana bakıp durdu.
 # text[en] = He/She must have been so surprised as the meeting was being announced that he/she kept looking at me.
 # type = converb, copula / AUX
@@ -520,6 +532,7 @@
 10	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = udtw23-13
+# parallel_id = tuecl/udtw23-13
 # text = Hırkam evde miymiş?
 # text[en] = Was my cardigan at home?
 # type = question particle
@@ -529,6 +542,7 @@
 4	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = udtw23-14
+# parallel_id = tuecl/udtw23-14
 # text = Bugün mü yapılacak etkinlik?
 # text[en] = Is the event to be held today?
 # type = question particle
@@ -539,6 +553,7 @@
 5	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = udtw23-15
+# parallel_id = tuecl/udtw23-15
 # text = Sonuçlar açıklanmış, değil mi?
 # text[en] = The results have been announced, haven't they?
 # type = question particle, tag question
@@ -550,6 +565,7 @@
 6	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = udtw23-16
+# parallel_id = tuecl/udtw23-16
 # text = Ayşe bu kitabı okumamış değil.
 # text[en] = It's not the case that Ayşe hasn't read this book.
 # type = negation, participle
@@ -561,6 +577,7 @@
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = udtw23-17
+# parallel_id = tuecl/udtw23-17
 # text = Genel olarak okumayı değil, resim yapmayı seviyor.
 # text[en] = In general, he/she likes to paint, not to read.
 # type = negation, participle
@@ -575,6 +592,7 @@
 9	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = udtw23-18
+# parallel_id = tuecl/udtw23-18
 # text = Okuduklarını değil, okuyacaklarını anlatıyor.
 # text[en] = He/She tells what she will read, not what he/she has read.
 # type = negation, participle
@@ -586,6 +604,7 @@
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = udtw23-19
+# parallel_id = tuecl/udtw23-19
 # text = Bunun mavisi daha güzel, bana maviyi verir misin?
 # text[en] = The blue [one] of this is prettier, can you give me the blue?
 # type = zero A -> N derivation, -si
@@ -601,6 +620,7 @@
 10	?	?	PUNCT	_	_	4	punct	_	_
 
 # sent_id = udtw23-20
+# parallel_id = tuecl/udtw23-20
 # text = Gençlere erişilebilir olmayan hedefleri terk ettirmeliyiz.
 # text[en] = We must make the young abandon unattainable goals.
 # type = multiple TAM markers, multi-word expressions
@@ -613,6 +633,7 @@
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = udtw23-21
+# parallel_id = tuecl/udtw23-21
 # text = Öğretmen kitabı alıp okula gitti.
 # text[en] = The teacher took the book and left for school.
 1	Öğretmen	öğretmen	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
@@ -623,6 +644,7 @@
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = udtw23-22
+# parallel_id = tuecl/udtw23-22
 # text = Öğretmen kitabı okula götürdü.
 # text[en] = The teacher took the book to school.
 1	Öğretmen	öğretmen	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
