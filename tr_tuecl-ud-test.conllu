@@ -1,4 +1,5 @@
 # sent_id = cairo-1
+# parallel_id = cairo/1
 # text = Kız arkadaşına mektup yazdı.
 # text[en] = The girl wrote a letter to her friend.
 1	Kız	kız	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
@@ -8,6 +9,7 @@
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = cairo-2
+# parallel_id = cairo/2
 # text = Yağmur yağdığını zannediyorum.
 # text[en] = I think that it is raining.
 1	Yağmur	yağmur	NOUN	_	Case=Nom|Number=Sing	2	nsubj	_	_
@@ -16,6 +18,7 @@
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo-3.1
+# parallel_id = cairo/3/alt1
 # text = O sigara ve alkol içmeyi bırakmayı denedi.
 # text[en] = He tried to stop smoking and drinking.
 1	O	o	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
@@ -28,6 +31,7 @@
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = cairo-3.2
+# parallel_id = cairo/3/alt2
 # text = Sigara ve alkol içmeyi bırakmayı denedi.
 # text[en] = He tried to stop smoking and drinking.
 1	Sigara	sigara	NOUN	_	Case=Nom|Number=Sing	4	obj	_	_
@@ -39,6 +43,7 @@
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = cairo-4.1
+# parallel_id = cairo/4/alt1
 # text = Sen gitmek istiyor musun?
 # text[en] = Do you want to go?
 # note = "musun" may need to be split.
@@ -49,6 +54,7 @@
 5	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo-4.2
+# parallel_id = cairo/4/alt2
 # text = Gitmek istiyor musun?
 # text[en] = Do you want to go?
 1	Gitmek	git	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	2	xcomp	_	_
@@ -57,6 +63,7 @@
 4	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = cairo-5
+# parallel_id = cairo/5
 # text = Sam, pencereyi aç!
 # text[en] = Sam, open the window!
 1	Sam	Sam	PROPN	_	Case=Nom|Number=Sing	4	vocative	_	SpaceAfter=No
@@ -66,6 +73,7 @@
 5	!	!	PUNCT	_	_	4	punct	_	_
 
 # sent_id = cairo-6.1
+# parallel_id = cairo/6/alt1
 # text = O kocasına arabayı yıkattırdı.
 # text[en] = She made her husband wash the car.
 # note = translation may need to be adjusted. (double causative)
@@ -76,6 +84,7 @@
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = cairo-6.2
+# parallel_id = cairo/6/alt2
 # text = Kocasına arabayı yıkattırdı.
 # text[en] = She made her husband wash the car.
 1	Kocasına	koca	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
@@ -84,6 +93,7 @@
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo-7
+# parallel_id = cairo/7
 # text = Peter'in komşusu çiti kırmızı boyadı.
 # text[en] = Peter's neighbor painted the fence red.
 # note = what about "kırmızıya boyadı"?
@@ -95,6 +105,7 @@
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = cairo-8
+# parallel_id = cairo/8
 # text = Benim babam seninkinden daha harika.
 # text[en] = My dad is cooler than yours.
 # note = "-ki" may need to be split.
@@ -108,6 +119,7 @@
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = cairo-9
+# parallel_id = cairo/9
 # text = Mary bronz kazandı, Peter gümüş, Jane altın.
 # text[en] = Mary won bronze, Peter silver, and Jane gold.
 1	Mary	Mary	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
@@ -122,6 +134,7 @@
 10	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo-10
+# parallel_id = cairo/10
 # text = İguazu büyük bir ülke mi, yoksa küçük mü?
 # text[en] = Is Iguazu a big or a small country?
 1	İguazu	İguazu	PROPN	_	Case=Nom|Number=Sing	4	nsubj	_	_
@@ -136,6 +149,7 @@
 10	?	?	PUNCT	_	_	4	punct	_	_
 
 # sent_id = cairo-11
+# parallel_id = cairo/11
 # text = Ne Peter Smith ne de Mary Brown seçilebilir.
 # text[en] = Neither Peter Smith nor Mary Brown could be selected.
 1	Ne	ne	CCONJ	_	_	3	cc	_	_
@@ -149,6 +163,7 @@
 9	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = cairo-12.1
+# parallel_id = cairo/12/alt1
 # text = Onlar kimin yazdığını hiç bilmiyorlar.
 # text[en] = They have no idea who wrote it.
 1	Onlar	o	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
@@ -159,6 +174,7 @@
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = cairo-12.2
+# parallel_id = cairo/12/alt2
 # text = Kimin yazdığını hiç bilmiyorlar.
 # text[en] = They have no idea who wrote it.
 1	Kimin	kim	PRON	_	Case=Gen|Number=Sing|PronType=Int	2	nsubj	_	_
@@ -168,6 +184,7 @@
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = cairo-13.1
+# parallel_id = cairo/13/alt1
 # text = Sen neye bakıyorsun?
 # text[en] = What are you looking at?
 1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
@@ -176,6 +193,7 @@
 4	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo-13.2
+# parallel_id = cairo/13/alt2
 # text = Neye bakıyorsun?
 # text[en] = What are you looking at?
 1	Neye	ne	PRON	_	Case=Dat|Number=Sing|PronType=Int	2	obl	_	_
@@ -183,6 +201,7 @@
 3	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = cairo-14.1
+# parallel_id = cairo/14/alt1
 # text = Sen ne zaman gelebileceğini zannediyorsun?
 # text[en] = When do you think you can come?
 1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
@@ -193,6 +212,7 @@
 6	?	?	PUNCT	_	_	5	punct	_	_
 
 # sent_id = cairo-14.2
+# parallel_id = cairo/14/alt2
 # text = Ne zaman gelebileceğini zannediyorsun?
 # text[en] = When do you think you can come?
 1	Ne	ne	DET	_	PronType=Int	2	det	_	_
@@ -202,6 +222,7 @@
 5	?	?	PUNCT	_	_	4	punct	_	_
 
 # sent_id = cairo-15.1
+# parallel_id = cairo/15/alt1
 # text = O araba aldı ama erkek kardeşi sadece bisiklet.
 # text[en] = He bought a car but his brother just a bike.
 1	O	o	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -215,6 +236,7 @@
 9	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo-15.2
+# parallel_id = cairo/15/alt2
 # text = Araba aldı ama erkek kardeşi sadece bisiklet.
 # text[en] = He bought a car but his brother just a bike.
 1	Araba	araba	NOUN	_	Case=Nom|Number=Sing	2	obj	_	_
@@ -227,6 +249,7 @@
 8	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = cairo-16
+# parallel_id = cairo/16
 # text = Peter ve Mary birbirlerini kucakladılar ve ondan sonra odadan çıktılar.
 # text[en] = Peter and Mary hugged each other and then left the room.
 1	Peter	Peter	PROPN	_	Case=Nom|Number=Sing	5	nsubj	_	_
@@ -242,6 +265,7 @@
 11	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = cairo-17.1
+# parallel_id = cairo/17/alt1
 # text = O saçını yapıyor olmalıydı ama nedense o gün yapmadı.
 # text[en] = She should have been doing her hair but for some reason she wouldn't that day.
 1	O	o	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -258,6 +282,7 @@
 11	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo-17.2
+# parallel_id = cairo/17/alt2
 # text = Saçını yapıyor olmalıydı ama nedense o gün yapmadı.
 # text[en] = She should have been doing her hair but for some reason she wouldn't that day.
 1	Saçını	saç	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	obj	_	_
@@ -273,6 +298,7 @@
 10	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = cairo-18
+# parallel_id = cairo/18
 # text = Ayak uyduramadım çünkü fazla hızlı koştu.
 # text[en] = I wasn't able to keep up, because he ran too fast.
 1	Ayak	ayak	NOUN	_	Case=Nom|Number=Sing	2	compound:lvc	_	_
@@ -284,6 +310,7 @@
 7	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = cairo-19
+# parallel_id = cairo/19
 # text = Bu mektup Peter'den ve dün iletildi.
 # text[en] = This letter is from Peter and it was delivered yesterday.
 1	Bu	bu	DET	_	Definite=Def|PronType=Dem	2	det	_	_
@@ -295,6 +322,7 @@
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = cairo-20.1
+# parallel_id = cairo/20/alt1
 # text = O Fransanın başkenti Paris'te büyüdü.
 # text[en] = She grew up in Paris, the capital of France.
 1	O	o	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
@@ -305,6 +333,7 @@
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = cairo-20.2
+# parallel_id = cairo/20/alt2
 # text = Fransanın başkenti Paris'te büyüdü.
 # text[en] = She grew up in Paris, the capital of France.
 1	Fransanın	Fransa	PROPN	_	Case=Gen|Number=Sing	2	nmod:poss	_	_
