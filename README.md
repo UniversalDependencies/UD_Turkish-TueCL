@@ -24,6 +24,7 @@ This work was supported by COST Action CA21167 - Universality, diversity and idi
 Data available since: UD v2.16
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: cairo tuecl
 Genre: grammar-examples
 Lemmas: manual native
 UPOS: manual native
