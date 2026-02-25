@@ -113,7 +113,7 @@
 2	babam	baba	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	nsubj	_	_
 3-4	seninkinden	_	_	_	_	_	_	_	_
 3	senin	sen	PRON	_	Case=Abl|Number=Sing|Person=2|PronType=Prs	4	nmod	_	_
-4	kinden	ki	PRON	_	Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=2	6	obl	_	_
+4	kinden	ki	NOUN	_	Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=2	6	obl	_	_
 5	daha	daha	ADV	_	_	6	advmod	_	_
 6	harika	harika	ADJ	_	_	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
@@ -358,7 +358,7 @@
 9	,	,	PUNCT	_	_	8	punct	_	_
 10-11	mutfağınkini	_	_	_	_	_	_	_	_
 10	mutfağın	mutfak	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	11	nmod:poss	_	_
-11	kini	ki	PRON	_	Case=Acc|Number=Sing|PronType=Dem	12	obj	_	_
+11	kini	ki	NOUN	_	Case=Acc|Number=Sing	12	obj	_	_
 12	temizlememişti	temizle	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pqp|VerbForm=Fin	8	conj	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	12	punct	_	_
 
@@ -1119,7 +1119,7 @@
 # type = clausal arguments/modifiers (non-finite verbs)
 1	Deniz	Deniz	PROPN	_	Case=Nom|Number=Sing	6	nsubj	_	_
 2	babasının	baba	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
-3	kendisine	kendi	PRON	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3|Reflex=Yes	5	obl	_	_
+3	kendisine	kendi	PRON	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	5	obl	_	_
 4	kitap	kitap	NOUN	_	Case=Nom|Number=Sing	5	obj	_	_
 5	okumasını	oku	VERB	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3|VerbForm=Vnoun	6	ccomp	_	_
 6	istiyor	iste	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
@@ -1131,8 +1131,8 @@
 # text[en] = Deniz wants to be by himself/herself.
 # type = clausal arguments/modifiers (non-finite verbs)
 1	Deniz	Deniz	PROPN	_	Case=Nom|Number=Sing	5	nsubj	_	_
-2	kendi	kendi	PRON	_	Case=Nom|Number=Sing|Person=3|Reflex=Yes	4	obl	_	_
-3	kendine	kendi	PRON	_	Case=Dat|Number=Sing|Person=3|Reflex=Yes	2	fixed	_	_
+2	kendi	kendi	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	obl	_	_
+3	kendine	kendi	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	fixed	_	_
 4	olmayı	ol	AUX	_	Case=Acc|Number=Sing|VerbForm=Vnoun	5	ccomp	_	_
 5	seviyor	sev	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
@@ -1623,7 +1623,7 @@
 2	arabam	araba	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	5	nsubj	_	_
 3-4	Deniz'inkinin	_	_	_	_	_	_	_	_
 3	Deniz'in	Deniz	PROPN	_	Case=Gen|Number=Sing	4	nmod:poss	_	_
-4	kinin	ki	PRON	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
+4	kinin	ki	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
 5	mavisi	mavi	ADJ	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -1642,7 +1642,7 @@
 # text[en] = The book will be made to be made to be read in all schools.
 # type = miscellaneous (double causative)
 1	Kitap	kitap	NOUN	_	Case=Nom|Number=Sing	4	nsubj:pass	_	_
-2	bütün	bütün	DET	_	_	3	det	_	_
+2	bütün	bütün	DET	_	PronType=Dem	3	det	_	_
 3	okullarda	okul	NOUN	_	Case=Loc|Number=Plur	4	obl	_	_
 4	okutturulacak	oku	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Fut|Voice=CauPass	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
@@ -1678,7 +1678,7 @@
 # text[en] = Deniz used to come here and read a book in her free time.
 # type = miscellaneous (idi + epenthesis)
 1	Deniz	Deniz	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
-2	buralara	bura	PRON	_	Case=Dat|Number=Plur	3	obl	_	_
+2	buralara	bura	PRON	_	Case=Dat|Number=Plur|PronType=Dem	3	obl	_	_
 3	gelir	gel	VERB	_	Aspect=Hab|Evident=Fh|Mood=Gen|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	8	punct	_	_
 5	boş	boş	ADJ	_	_	6	amod	_	_
