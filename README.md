@@ -45,9 +45,9 @@ This work was supported by COST Action CA21167 - Universality, diversity and idi
 * 2026-02-26
   * Fixed validation errors: PronType features, ExtPos for fixed MWEs, -ki PRON→NOUN.
 * 2025-09-04 v2.16
-  * add reference paper
-  * add parallel corpus information to machine-readable metadata
-  * add parallel data support with parallel_id metadata for cross-lingual sentence matching
+  * Added reference paper.
+  * Added parallel corpus information to machine-readable metadata.
+  * Added parallel data support with parallel_id metadata for cross-lingual sentence matching.
 * 2025-05-15 v2.16
   * Initial release in Universal Dependencies.
 
