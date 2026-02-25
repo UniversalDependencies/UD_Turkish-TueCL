@@ -42,6 +42,8 @@ This work was supported by COST Action CA21167 - Universality, diversity and idi
 
 # Changelog
 
+* 2026-02-26
+  * Fixed validation errors: PronType features, ExtPos for fixed MWEs, -ki PRON→NOUN.
 * 2025-09-04 v2.16
   * add reference paper
   * add parallel corpus information to machine-readable metadata
