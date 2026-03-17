@@ -65,6 +65,6 @@ Features: manual native
 Relations: manual native
 Contributors: Akkurt, Furkan; Çöltekin, Çağrı
 Contributing: here
-Contact: furkanakkurt7242@icloud.com
+Contact: furkan.akkurt@bogazici.edu.tr
 ===============================================================================
 </pre>
