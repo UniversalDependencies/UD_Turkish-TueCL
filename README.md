@@ -38,10 +38,12 @@ Please, cite the following paper if you use Turkish-TueCL UD treebank:
 
 # Acknowledgments
 
-This work was supported by COST Action CA21167 - Universality, diversity and idiosyncrasy in language technology (UniDive). We thank the Turkic UD working group for fruitful discussions of linguistic issues and annotation approaches.
+This work was supported by COST Action CA21167 — Universality, diversity and idiosyncrasy in language technology ([UniDive](https://unidive.lisn.upsaclay.fr/)). We thank the Turkic UD working group for fruitful discussions of linguistic issues and annotation approaches.
 
 # Changelog
 
+* 2026-05-15 v2.18
+  * Updated UniDive acknowledgment.
 * 2026-02-26
   * Fixed validation errors: PronType features, ExtPos for fixed MWEs, -ki PRON→NOUN.
 * 2025-09-04 v2.16
