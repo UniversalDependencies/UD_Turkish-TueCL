@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Turkish-TueCL:
-commit 826fca9189bc6721d4924f48369a9a6e569977e5
-Merge: 8231f1e 1e7db6d
+commit 7cdbe5b75a4e0b222bd911dbae3c06a25bdda410
+Merge: dcb36bb 4209b50
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'tr_tuecl'
@@ -19,22 +19,12 @@ Split: Did not find at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 14 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 637 out of 904 total words have one or more features.
+Features: 639 out of 904 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 28 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang tr --max-err=10 UD_Turkish-TueCL/tr_tuecl-ud-test.conllu
-[Line 116 Sent cairo-8]: [L3 Warning pron-det-without-prontype] The word 'kinden' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 158 Sent cairo-11]: [L3 Warning fixed-without-extpos] Fixed expression 'ne de' does not have the 'ExtPos' feature
-[Line 1122 Sent 43]: [L3 Warning pron-det-without-prontype] The word 'kendisine' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 1134 Sent 44]: [L3 Warning pron-det-without-prontype] The word 'kendi' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 1134 Sent 44]: [L3 Warning fixed-without-extpos] Fixed expression 'kendi kendine' does not have the 'ExtPos' feature
-[Line 1135 Sent 44]: [L3 Warning pron-det-without-prontype] The word 'kendine' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 1626 Sent 85]: [L3 Warning pron-det-without-prontype] The word 'kinin' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 1645 Sent 87]: [L3 Warning pron-det-without-prontype] The word 'bütün' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 1681 Sent 91]: [L3 Warning pron-det-without-prontype] The word 'buralara' is tagged 'PRON' but it lacks the 'PronType' feature
-Warnings: 9
 *** PASSED ***
 Validity: 1
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
