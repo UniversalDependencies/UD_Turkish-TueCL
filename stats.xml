@@ -22,16 +22,16 @@
     <tag name="CCONJ">14</tag><!-- ama, ve, ne, yoksa -->
     <tag name="DET">14</tag><!-- bir, bu, ne, o, bütün -->
     <tag name="INTJ">1</tag><!-- peki -->
-    <tag name="NOUN">223</tag><!-- kitap, ev, okul, çocuk, anne, araba, sabah, arkadaş, kardeş, ki -->
+    <tag name="NOUN">226</tag><!-- kitap, ev, okul, çocuk, ki, anne, araba, sabah, arkadaş, kardeş -->
     <tag name="NUM">6</tag><!-- üç, beş, bir, iki -->
-    <tag name="PRON">40</tag><!-- o, sen, ben, bu, kendi, ki, kim, ne, birbiri, biz -->
+    <tag name="PRON">37</tag><!-- o, sen, ben, bu, kendi, kim, ne, birbiri, biz, bura -->
     <tag name="PROPN">92</tag><!-- Deniz, Ayhan, Peter, Ayşe, Mary, Fransa, Paris, Brown, Hakan, Jane -->
     <tag name="PUNCT">168</tag><!-- ., ?, ,, !, - -->
     <tag name="SCONJ">4</tag><!-- ki, eğer, çünkü -->
     <tag name="VERB">175</tag><!-- oku, uyu, ver, yap, git, gel, al, iste, anla, bak -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="55">
+  <feats unique="57">
     <feat name="Aspect" value="Hab" upos="VERB">11</feat><!-- okur, verir, bakamaz, erişilebilir, gelir, hallederiz, kalır, tozlaşır, uyuyamayabilir -->
     <feat name="Aspect" value="Imp" upos="AUX,VERB">10</feat><!-- uyursa, se, duyurulurken, ettirmeliyiz, konuşurken, olsaydı, seçilebilir -->
     <feat name="Aspect" value="Perf" upos="AUX,VERB">100</feat><!-- verdi, idi, di, olacak, uyumuş, aldı, gitti, miydi, uyudu, büyüdü -->
@@ -48,6 +48,8 @@
     <feat name="Definite" value="Ind" upos="DET">7</feat><!-- bir -->
     <feat name="Evident" value="Fh" upos="AUX,VERB">129</feat><!-- verdi, idi, istiyor, di, olacak, aldı, miydi, okuyor, seviyor, uyudu -->
     <feat name="Evident" value="Nfh" upos="AUX,VERB">24</feat><!-- uyumuş, gitmiş, görmemiş, se, açıklanmış, bilmiş, etmişmiş, gelmiş, görmüş, miymiş -->
+    <feat name="ExtPos" value="CCONJ" upos="CCONJ">1</feat><!-- ne -->
+    <feat name="ExtPos" value="PRON" upos="PRON">1</feat><!-- kendi -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">6</feat><!-- uyursa, se, olsaydı -->
     <feat name="Mood" value="Gen" upos="AUX,VERB">11</feat><!-- okur, verir, dir, gelir, hallederiz, kalır, midir, tir, tozlaşır -->
     <feat name="Mood" value="GenPot" upos="VERB">2</feat><!-- bakamaz, erişilebilir -->
@@ -62,16 +64,16 @@
     <feat name="NumType" value="Card" upos="NUM">6</feat><!-- üç, beş, bir, iki -->
     <feat name="Person" value="1" upos="PRON,VERB">15</feat><!-- bana, Benim, zannediyorum, benden, bizimle, ettirmeliyiz, hallederiz, izleyecektik, söylüyorum, uyduramadım -->
     <feat name="Person" value="2" upos="AUX,PRON,VERB">24</feat><!-- Sen, bakıyorsun, misin, musun, zannediyorsun, Boşver, Sana, aç, bahsetme, bitir -->
-    <feat name="Person" value="3" upos="AUX,PRON,VERB">157</feat><!-- mi, O, verdi, idi, istiyor, di, mı, olacak, aldı, gitti -->
+    <feat name="Person" value="3" upos="AUX,NOUN,PRON,VERB">157</feat><!-- mi, O, verdi, idi, istiyor, di, mı, olacak, aldı, gitti -->
     <feat name="Person[psor]" value="1" upos="NOUN,VERB">7</feat><!-- Eşim, Hırkam, arabam, babam, uyandırmamız, vardığımızda, çalıştığımız -->
-    <feat name="Person[psor]" value="2" upos="NOUN,PRON,VERB">6</feat><!-- gelebileceğini, Okuduğunuzu, arkadaşınla, kinden, Çocuğun -->
+    <feat name="Person[psor]" value="2" upos="NOUN,VERB">6</feat><!-- gelebileceğini, Okuduğunuzu, arkadaşınla, kinden, Çocuğun -->
     <feat name="Person[psor]" value="3" upos="ADJ,AUX,NOUN,PRON,VERB">69</feat><!-- Okuduklarını, annesini, mavisi, Annesinin, arkadaşına, başkenti, kardeşi, kocasına, okuması, olduğunu -->
     <feat name="Polarity" value="Neg" upos="ADJ,AUX,NOUN,VERB">42</feat><!-- değil, yok, anlamıyor, bilmiyorlar, görmemiş, olmadı, yapmadı, bahsetme, bakamaz, gitmeden -->
     <feat name="Polarity" value="Pos" upos="NOUN">2</feat><!-- evde, öğrenci -->
     <feat name="PronType" value="Art" upos="DET">7</feat><!-- bir -->
-    <feat name="PronType" value="Dem" upos="DET,PRON">10</feat><!-- o, Bunun, bu, bunu, kini, ondan -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">11</feat><!-- o, Bunun, bu, bunu, buralara, bütün, ondan -->
     <feat name="PronType" value="Int" upos="AUX,DET,PRON">30</feat><!-- mi, mı, miydi, kimin, musun, ne, neye, midir, misin, miymiş -->
-    <feat name="PronType" value="Prs" upos="PRON">22</feat><!-- O, Sen, bana, Benim, Onlar, Sana, benden, bizimle, senin -->
+    <feat name="PronType" value="Prs" upos="PRON">25</feat><!-- O, Sen, bana, Benim, Onlar, Sana, benden, bizimle, kendi, kendine -->
     <feat name="PronType" value="Rcp" upos="PRON">1</feat><!-- birbirlerini -->
     <feat name="Reflex" value="Yes" upos="PRON">3</feat><!-- kendi, kendine, kendisine -->
     <feat name="Tense" value="Fut" upos="AUX,VERB">13</feat><!-- olacak, gelebileceğini, kalacak, gerekecek, okutturulacak, okuyacaklarını, uyuyacağını, yapılacak -->
